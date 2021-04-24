@@ -10,6 +10,6 @@ public class IndexController {
 
     @GetMapping
     public String sayHello() {
-        return "Hello and Welcome to the CarGarage application. You can create a new car entry by making a POST request to /api/cars endpoint.";
+        return "ng a POST request to /api/cars endpoint.";
     }
 }
